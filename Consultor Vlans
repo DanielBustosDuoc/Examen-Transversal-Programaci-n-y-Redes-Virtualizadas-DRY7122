@@ -1,0 +1,7 @@
+vlanNumero =int(input("Ingrese Numero de Vlan: "))
+if vlanNumero >=1 and vlanNumero <= 1005:
+    print("Esta es una Vlan de Rango Normal")
+elif vlanNumero >=1006 and vlanNumero <=4094:
+    print("Esto es una Vlan de Rango Extendido")
+else:
+    print("El numero NO correspondea una lista de Acceso")
